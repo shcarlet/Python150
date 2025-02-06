@@ -5,5 +5,6 @@ class Solution(object):
                 if nums[i]+nums[j]==target:
                     return [i,j]
     
-//random
-//random again
+#random
+#random again
+#randome again lol

@@ -1,9 +1,9 @@
 class Solution(object):
     def missingNumber(self, nums):
         nums.sort()
-        for i,v in enumerate(nums):
-            if i!=v:
-                return v-1
-            if len(nums)-1==v:
-                return v+1
+        for index,value in enumerate(nums):
+            if index!=value:
+                return value-1
+            if len(nums)-1==value:
+                return value+1
         
